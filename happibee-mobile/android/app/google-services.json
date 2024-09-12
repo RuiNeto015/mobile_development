@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9124048570",
+    "project_id": "engreq-e3cef",
+    "storage_bucket": "engreq-e3cef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9124048570:android:0c971440bf476b4146dc83",
+        "android_client_info": {
+          "package_name": "com.hapibee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuxU5KDKK629OJYpdV52nl06mH7oLGJ0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

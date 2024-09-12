@@ -1,0 +1,41 @@
+server:
+  port: 9000
+
+spring:
+  mail:
+    host: smtp-mail.outlook.com
+    port: 587
+    username: hapibee@outlook.pt
+    password: Engenhariaderequisitos
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: hapibee
+      username: root
+      password: root
+      authentication-database: admin
+  #      uri: mongodb://root:root@localhost:27017/?authMechanism=DEFAULT
+
+  profiles:
+    active: bootstrap
+
+portal-dgadr:
+  url: http://localhost:9001
+
+jwt:
+  private:
+    key: classpath:rsa.private.key
+  public:
+    key: classpath:rsa.public.key
+
+firebase:
+  notification:
+    key: AAAAAh_V7ro:APA91bEqy72MOf23z-9hGFSm4AKbKdd9C9laTf-Q22Lp3ItFTx4McCMP9hevVjsU2KOtxmi4wxWLCMp4UXE18OJmEAL_PSybuct5EgD5THjeJOMSG5u30ITjs1phuG1uVEqkbq-4nrYl
+    to: c7mTpieZT0uEoBA1_qNze3:APA91bFAmb5acniSRWLtaPTIA42aHhqFMYOJ8vVc92oxlsC3T_gaBOe6FmaufKld4EZ-Zr14F4LiY0la2fK6ZhEZxnQMxXxzGVYJAEfGkB2QlBMYbIoo9KzQm-LFMn7SCT11ToTRDM3s

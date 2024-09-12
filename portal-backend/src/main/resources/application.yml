@@ -1,0 +1,18 @@
+server:
+  port: 9001
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: portal
+      username: root
+      password: root
+      authentication-database: admin
+
+  profiles:
+    active: bootstrap
+
+hapibee-backend:
+  url: http://localhost:9000

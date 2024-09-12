@@ -1,0 +1,20 @@
+version: '3'
+name: hapibee-backend
+services:
+
+  #   Mongo Service
+  mongodb:
+    image: mongo:7.0.4
+    container_name: happibee-mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - "27017:27017"
+
+networks:
+  database_network:
+    driver: bridge
+
+volumes:
+  mongo-data:
